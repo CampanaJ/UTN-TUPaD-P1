@@ -1,11 +1,13 @@
-edad = input("Ingrese su Edad: ")
-edad = int(edad)
+nota = input("ingrese su nota: ")
+nota = float(nota)
 
-if edad <0:
-    print("No")
-elif edad > 65:
-    print("mas 65")
-elif edad > 18:
-    print("mas 18")
-else:
-    print("menor 18")
+if 90 < nota < 100:
+    print("Excelente!")
+elif 80 < nota < 89:
+    print("Muy bueno")
+elif 70 < nota < 79:
+    print("Bueno")
+elif 60 < nota < 69:
+    print("Suficiente")
+elif 0 < nota < 59:
+    print("Insuficiente")
